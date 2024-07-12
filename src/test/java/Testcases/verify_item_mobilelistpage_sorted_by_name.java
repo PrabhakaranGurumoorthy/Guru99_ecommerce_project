@@ -18,7 +18,7 @@ public class verify_item_mobilelistpage_sorted_by_name {
             driver.get("https://clicks.aweber.com/y/ct/?l=GoDhLn&m=mcNYuYFeLUQLjy9&b=h5T4l2fu1DOGeQSqXkdkzQ");
             String homepagetittle=driver.getTitle();
             SoftAssert softAssert=new SoftAssert();
-            softAssert.assertEquals(homepagetittle,"Home page");
+            softAssert.assertEquals(homepagetittle,"THIS IS DEMO SITE");
             driver.findElement(By.linkText("MOBILE")).click();
             String mobilepagatittle=driver.getTitle();
             softAssert.assertEquals(mobilepagatittle,"Mobile");
