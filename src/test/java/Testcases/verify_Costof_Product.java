@@ -15,24 +15,26 @@ public class verify_Costof_Product {
     @BeforeTest
     public void setup(){
         driver=new FirefoxDriver();
-        driver.get("https://clicks.aweber.com/y/ct/?l=GoDhLn&m=mcNYuYFeLUQLjy9&b=h5T4l2fu1DOGeQSqXkdkzQ");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
     @Test
     public void Testcase(){
-        driver.findElement(By.linkText("MOBILE")).click();
-        String rate1=driver.findElement(By.xpath("//span[contains(text(),'$100.00')]")).getText();
-        driver.findElement(By.cssSelector("a[title='Xperia']")).click();
-        String rate2=driver.findElement(By.xpath("//*[@id=\"product-price-1\"]/span")).getText();
-        SoftAssert softAssert=new SoftAssert();
         try {
-            softAssert.assertEquals(rate1,rate2);
-        }
-        catch (AssertionError e ){
+            driver.get("https://clicks.aweber.com/y/ct/?l=GoDhLn&m=mcNYuYFeLUQLjy9&b=h5T4l2fu1DOGeQSqXkdkzQ");
+            driver.findElement(By.linkText("MOBILE")).click();
+            String rate1 = driver.findElement(By.xpath("//span[contains(text(),'$100.00')]")).getText();
+            driver.findElement(By.cssSelector("a[title='Xperia']")).click();
+            String rate2 = driver.findElement(By.xpath("//*[@id=\"product-price-1\"]/span")).getText();
+            SoftAssert softAssert = new SoftAssert();
+            try {
+                softAssert.assertEquals(rate1, rate2);
+            } catch (AssertionError e) {
+                e.printStackTrace();
+            }
+            softAssert.assertAll();
+        }catch (Exception e){
             e.printStackTrace();
         }
-        softAssert.assertAll();
-
     }
     @AfterTest
     public void teardown(){

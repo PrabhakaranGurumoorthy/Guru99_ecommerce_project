@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/prabh/new git folder/Guru99_Ecommerce_project/src/test/java/Testcases/verify_Costof_Product.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/prabh/new git folder/Guru99_Ecommerce_project/src/test/java/Testcases/verify_item_mobilelistpage_sorted_by_name.java">
+        <classes>
+            <class name="Testcases.verify_item_mobilelistpage_sorted_by_name">
+                <methods><include name="verify"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
