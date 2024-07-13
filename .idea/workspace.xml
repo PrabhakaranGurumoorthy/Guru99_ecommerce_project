@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb01498-d342-494f-b02d-8cedeb9141a8" name="Changes" comment="Project Stucture Added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/verify_Costof_Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/verify_item_mobilelistpage_sorted_by_name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/verify_item_mobilelistpage_sorted_by_name.java" afterDir="false" />
     </list>
@@ -49,18 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.verify_item_mobilelistpage_sorted_by_name.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.verify_item_mobilelistpage_sorted_by_name.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.verify_Costof_Product.Testcase.executor": "Run",
+    "TestNG.verify_item_mobilelistpage_sorted_by_name.main.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="TestNG.verify_Costof_Product.Testcase">
     <configuration name="verify_item_mobilelistpage_sorted_by_name" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Testcases.verify_item_mobilelistpage_sorted_by_name" />
       <module name="Guru99_Ecommerce_project" />
@@ -74,8 +77,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="verify_Costof_Product.Testcase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99_Ecommerce_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.verify_Costof_Product" />
+      <option name="METHOD_NAME" value="Testcase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verify_item_mobilelistpage_sorted_by_name.main" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99_Ecommerce_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.verify_item_mobilelistpage_sorted_by_name" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.verify_Costof_Product.Testcase" />
+        <item itemvalue="TestNG.verify_item_mobilelistpage_sorted_by_name.main" />
         <item itemvalue="Application.verify_item_mobilelistpage_sorted_by_name" />
       </list>
     </recent_temporary>
@@ -105,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720724679695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project Stucture Added">
+      <option name="closed" value="true" />
+      <created>1720808584649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720808584649</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
